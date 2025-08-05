@@ -9,7 +9,7 @@ variable "aws_region" {
 }
 
 variable "cluster_name" {
-  description = "Name of the EKS cluster"
+  description = "this cluster is for ecommerce app with multiple microservices on multiple technologies"
   type        = string
   default     = "retail-store"
 }
